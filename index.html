@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .logo {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            width: 200px; /* масштаб логотипа при необходимости */
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <img src="GMS.png" alt="gms" class="logo">
+        <iframe src="https://chat.unith.ai/Graphlogic-69/gmsavatar-10911?api_key=ac278af7ed64416e9a5c04c1b992c899"
+                allow="microphone"></iframe>
+
+        
+    </div>
+</body>
+</html>
